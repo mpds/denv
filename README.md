@@ -1,3 +1,5 @@
+Publication: https://journals.asm.org/doi/10.1128/Spectrum.00256-21
+
 # Scripts usage
 
 Install dependencies using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file):
