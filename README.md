@@ -1,6 +1,6 @@
 # denv-scripts
 
-## Publication
+**Publication:**
 Torres, Maria Celeste, et al. "In Silico Analysis of Dengue Virus Serotype 2 Mutations Detected at the Intrahost Level in Patients with Different Clinical Outcomes." *Microbiology Spectrum* 9.2 (2021): e00256-21. DOI: https://doi.org/10.1128/Spectrum.00256-21.
 
 ## Basic usage
