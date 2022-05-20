@@ -1,11 +1,16 @@
-# Basic usage
+# denv-scripts
+
+## Publication
+Torres, Maria Celeste, et al. "In Silico Analysis of Dengue Virus Serotype 2 Mutations Detected at the Intrahost Level in Patients with Different Clinical Outcomes." *Microbiology Spectrum* 9.2 (2021): e00256-21. DOI: https://doi.org/10.1128/Spectrum.00256-21.
+
+## Basic usage
 
 Install dependencies using [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file):
 ```
 conda env create -f environment.yml
 ```
 
-## Comparative modeling of protein 3D structures with MODELLER 
+### Comparative modeling of protein 3D structures with MODELLER 
 First, `cd modellr`. 
 
 To generate models, you will need at least two inputs: 
@@ -58,8 +63,4 @@ bash run.sh --target ns3#123.ali --template 5yw1.pdb --chains BB --dir files/bas
 This script generates several output files and logs (see the MODELLER [manual](https://salilab.org/modeller/manual/) for details), including alignment files (`.ali` and `.pap`) and a quality assessment plot such as the one below. Also, a folder named `procheck` is created containing the PROCHECK results. 
 
 ![ns3#123-5yw1_dope](https://user-images.githubusercontent.com/25796259/114647974-5f309d80-9cb4-11eb-979b-9c33d5e78170.png)
-
-
-# Publication
-Torres, Maria Celeste, et al. "In Silico Analysis of Dengue Virus Serotype 2 Mutations Detected at the Intrahost Level in Patients with Different Clinical Outcomes." *Microbiology Spectrum* 9.2 (2021): e00256-21. DOI: https://doi.org/10.1128/Spectrum.00256-21.
 
